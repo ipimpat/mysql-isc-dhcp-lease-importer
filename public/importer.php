@@ -67,18 +67,18 @@
  *
  * Username, password, host and database name
  */
-define('MYSQL_HOSTNAME', '192.168.1.5');
-define('MYSQL_USERNAME', 'pfsense');
-define('MYSQL_PASSWORD', 'V3LBdnaae68jdrsE');
-define('MYSQL_DATABASE', 'dhcp');
-define('MYSQL_TABLE', 'leases');
+define('MYSQL_HOSTNAME', '192.168.1.5');        // MySQL server IP address or hostname
+define('MYSQL_USERNAME', 'pfsense');            // MySQL database username
+define('MYSQL_PASSWORD', 'V3LBdnaae68jdrsE');   // MySQL database password
+define('MYSQL_DATABASE', 'dhcp');               // MySQL database name
+define('MYSQL_TABLE', 'leases');                // MySQL table name
 
 /*
  * ---------------------------------------------------------------
  * ISC DHCP LEASE FILE
  * ---------------------------------------------------------------
  *
- * Path wh
+ * Path for the root of the folder where library dependencies exists
  */
 define('SRC_PATH', realpath(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'src') . DIRECTORY_SEPARATOR);
 
@@ -87,7 +87,7 @@ define('SRC_PATH', realpath(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEP
  * ISC DHCP LEASE FILE
  * ---------------------------------------------------------------
  *
- * Path of the ISC DHCP lease file
+ * Path for the ISC DHCP lease file
  */
 //define('LEASE_FILE_PATH', realpath(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'test' . DIRECTORY_SEPARATOR . 'dhcpd.leases'));
 define('LEASE_FILE_PATH', '/var/dhcpd/var/db/dhcpd.leases');
