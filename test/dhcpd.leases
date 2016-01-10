@@ -1,0 +1,175 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.2.8
+
+lease 192.168.0.135 {
+  starts 0 2015/12/06 21:44:25;
+  ends 0 2015/12/06 23:44:25;
+  tstp 0 2015/12/06 23:44:25;
+  cltt 0 2015/12/06 21:44:25;
+  binding state free;
+  hardware ethernet 00:08:ca:ef:0e:46;
+  uid "\001\000\010\312\357\016F";
+}
+lease 192.168.0.156 {
+  starts 2 2015/12/08 10:39:32;
+  ends 2 2015/12/08 12:39:32;
+  tstp 2 2015/12/08 12:39:32;
+  cltt 2 2015/12/08 10:39:32;
+  binding state free;
+  hardware ethernet 00:24:d7:ad:08:18;
+  uid "\001\000$\327\255\010\030";
+}
+lease 192.168.0.154 {
+  starts 2 2015/12/08 10:44:48;
+  ends 2 2015/12/08 12:44:48;
+  tstp 2 2015/12/08 12:44:48;
+  cltt 2 2015/12/08 10:44:48;
+  binding state free;
+  hardware ethernet c0:ee:fb:35:1f:55;
+  uid "\377\000\000\000\026\000\001\000\001\034\335\240\313\300\356\3735\037U";
+}
+lease 192.168.0.136 {
+  starts 1 2015/12/21 10:19:29;
+  ends 1 2015/12/21 12:19:29;
+  tstp 1 2015/12/21 12:19:29;
+  cltt 1 2015/12/21 10:19:29;
+  binding state free;
+  hardware ethernet 2c:f0:ee:ae:d6:6d;
+  uid "\001,\360\356\256\326m";
+}
+lease 192.168.0.143 {
+  starts 3 2015/12/23 17:49:55;
+  ends 3 2015/12/23 19:49:55;
+  tstp 3 2015/12/23 19:49:55;
+  cltt 3 2015/12/23 17:49:55;
+  binding state free;
+  hardware ethernet 00:21:47:ba:88:30;
+  uid "\001\000!G\272\2100";
+}
+lease 192.168.0.139 {
+  starts 3 2015/12/23 23:52:28;
+  ends 4 2015/12/24 01:52:28;
+  tstp 4 2015/12/24 01:52:28;
+  cltt 3 2015/12/23 23:52:28;
+  binding state free;
+  hardware ethernet 44:6d:57:7f:da:1d;
+  uid "\001DmW\177\332\035";
+}
+lease 192.168.0.142 {
+  starts 3 2015/12/23 07:57:57;
+  ends 4 2015/12/24 07:57:57;
+  tstp 4 2015/12/24 07:57:57;
+  cltt 3 2015/12/23 07:57:57;
+  binding state free;
+  hardware ethernet 0c:30:21:9a:51:e4;
+  uid "\001\0140!\232Q\344";
+}
+lease 192.168.0.137 {
+  starts 4 2015/12/24 10:06:45;
+  ends 4 2015/12/24 12:06:45;
+  tstp 4 2015/12/24 12:06:45;
+  cltt 4 2015/12/24 10:06:45;
+  binding state free;
+  hardware ethernet e0:cb:ee:4a:e7:bc;
+  uid "\001\340\313\356J\347\274";
+}
+lease 192.168.0.141 {
+  starts 4 2015/12/24 21:55:48;
+  ends 4 2015/12/24 23:55:48;
+  tstp 4 2015/12/24 23:55:48;
+  cltt 4 2015/12/24 21:55:48;
+  binding state free;
+  hardware ethernet 48:d2:24:e4:59:37;
+  uid "\001H\322$\344Y7";
+}
+lease 192.168.0.138 {
+  starts 5 2015/12/25 09:51:12;
+  ends 5 2015/12/25 11:51:12;
+  tstp 5 2015/12/25 11:51:12;
+  cltt 5 2015/12/25 09:51:12;
+  binding state free;
+  hardware ethernet 44:74:6c:ba:4d:9a;
+}
+lease 192.168.0.145 {
+  starts 5 2015/12/25 18:15:36;
+  ends 5 2015/12/25 20:15:36;
+  cltt 5 2015/12/25 18:15:36;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet d0:51:62:6d:50:ad;
+  client-hostname "android-28c0a1d0d5ae6ef8";
+}
+lease 192.168.0.140 {
+  starts 5 2015/12/25 09:38:32;
+  ends 6 2015/12/26 09:38:32;
+  cltt 5 2015/12/25 09:38:32;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet e0:f5:c6:cc:b9:e1;
+  uid "\001\340\365\306\314\271\341";
+  client-hostname "Natasjas-iPhone";
+}
+lease 192.168.0.144 {
+  starts 5 2015/12/25 17:36:45;
+  ends 6 2015/12/26 17:36:45;
+  cltt 5 2015/12/25 17:36:45;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:f7:e4:77:de:bc;
+  uid "\001\004\367\344w\336\274";
+  client-hostname "iPhone";
+}
+lease 192.168.0.107 {
+  starts 2 2015/08/25 13:57:19;
+  ends 2 2015/08/25 15:57:19;
+  tstp 2 2015/08/25 15:57:19;
+  cltt 2 2015/08/25 13:57:19;
+  binding state free;
+  hardware ethernet 00:08:ca:ef:0e:46;
+  uid "\001\000\010\312\357\016F";
+}
+lease 192.168.0.101 {
+  starts 2 2015/08/25 14:03:05;
+  ends 2 2015/08/25 16:03:05;
+  tstp 2 2015/08/25 16:03:05;
+  cltt 2 2015/08/25 14:03:05;
+  binding state free;
+  hardware ethernet ac:36:13:c8:3f:25;
+  uid "\001\2546\023\310?%";
+}
+lease 192.168.0.109 {
+  starts 5 2015/12/25 18:58:08;
+  ends 5 2015/12/25 20:58:08;
+  cltt 5 2015/12/25 18:58:08;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:30:de:08:43:56;
+  uid "\001\0000\336\010CV";
+  client-hostname "PLC_Ebeltoft";
+}
+lease 192.168.0.108 {
+  starts 5 2015/12/25 19:05:39;
+  ends 5 2015/12/25 21:05:39;
+  cltt 5 2015/12/25 19:05:39;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:50:6c:05:50:54;
+  uid "\001\000Pl\005PT";
+}
+server-duid "\000\001\000\001\031\222[2\000\000$\316\322m";
+
+lease 192.168.0.145 {
+  starts 5 2015/12/25 19:13:13;
+  ends 5 2015/12/25 21:13:13;
+  cltt 5 2015/12/25 19:13:13;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet d0:51:62:6d:50:ad;
+  client-hostname "android-28c0a1d0d5ae6ef8";
+}
