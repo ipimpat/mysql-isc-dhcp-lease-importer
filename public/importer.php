@@ -65,7 +65,7 @@
  * MYSQL CONNECTION SETTINGS
  * ---------------------------------------------------------------
  *
- * Username, password, host and database name
+ * Host, Username, password, database name and table name
  */
 define('MYSQL_HOSTNAME', '192.168.1.5');        // MySQL server IP address or hostname
 define('MYSQL_USERNAME', 'pfsense');            // MySQL database username
